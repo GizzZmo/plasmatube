@@ -29,7 +29,7 @@ Kirigami.ScrollablePage {
 
     Kirigami.Theme.colorSet: Kirigami.Theme.View
 
-    actions.contextualActions: [
+    actions: [
         VideoListAction {
             visible: PlasmaTube.isLoggedIn
             videoModel: videoModel
